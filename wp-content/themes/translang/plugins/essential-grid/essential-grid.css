@@ -1,0 +1,51 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+.esg-grid i[class*="eg-icon-"] {
+	color: #fff;
+}
+.esg-grid a:hover i[class*="eg-icon-"] {
+	color: #000;
+}
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+
+.content .minimal-light .esg-grid .esg-overflowtrick {
+	margin: 2rem 0;
+}
+@media(max-width: 768px){
+	.content .minimal-light .esg-grid .esg-overflowtrick {
+		margin: 3.5rem 0;
+	}
+}
+.content .minimal-light .esg-filterbutton,
+.content .minimal-light .esg-navigationbutton,
+.content .minimal-light .esg-sortbutton,
+.content .minimal-light .esg-cartbutton a {
+	border: 2px solid #222446;
+	box-shadow: none!important;
+	border-radius: 500px;
+	color: #383838;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+.content .minimal-light .esg-navigationbutton:hover,
+.content .minimal-light .esg-filterbutton:hover,
+.content .minimal-light .esg-sortbutton:hover,
+.content .minimal-light .esg-sortbutton-order:hover,
+.content .minimal-light .esg-cartbutton a:hover,
+.content .minimal-light .esg-filterbutton.selected {
+	border: 2px solid #ff6a48;
+	color: #f14f4a;
+}
+@media (max-width:460px) {
+	.minimal-light .esg-navigationbutton {
+		width: 6px;		
+	}
+}

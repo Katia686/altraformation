@@ -1,0 +1,26 @@
+Version 1.1.1
+    	Added:
+    		- Compatibility with WP 5.0.2
+            - Alert to Demo data installation
+            - Privacy Policy page
+
+        Fixed:
+            - Compatibility with Gutenberg and other PageBuilders
+            - Update plugins to their latest versions
+            - Improve theme styles
+            - Service Image's Icon
+            - Contact Form
+            - WPML support for custom layouts
+
+        Changed:
+            - Update default contact forms to make them GDPR-compliant
+    		- Update demo data
+
+
+Version 1.1.0
+	Fixed:
+	- Update plugins to their latest versions
+	- Update documentation
+
+Version 1.0
+	- Release

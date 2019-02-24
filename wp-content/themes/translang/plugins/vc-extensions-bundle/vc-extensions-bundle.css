@@ -1,0 +1,29 @@
+/* Visual Composer Extension Bundle
+----------------------------------------------------------------- */
+
+/* Tooltip */
+.tooltipster-base.tooltipster-light {
+	background: #becf5c;
+	border: none;
+	border-radius: 0;
+	/*box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);*/
+	color: #fff;
+}
+.tooltipster-base.tooltipster-light h5{
+	color: #fff;
+	margin-bottom: 1em;
+	font-size: 20px;
+}
+.tooltipster-base.tooltipster-light .tooltipster-content {
+	padding: 4em;
+	border: none;
+	line-height: 32px;
+}
+.tooltipster-base.tooltipster-light .tooltipster-arrow span {
+	border-top-color: #becf5c !important;
+}
+.cq-hotspots .hotspot-item a.cq-tooltip span {
+	width: 10px;
+	height: 10px;
+	margin: -5px 0 0 -5px;
+}
