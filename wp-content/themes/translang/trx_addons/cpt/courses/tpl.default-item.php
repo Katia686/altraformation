@@ -26,12 +26,18 @@ if ($args['slider']) {
 	<?php } ?>
 	<div class="sc_courses_item_info">
 		<div class="sc_courses_item_header">
-			<h4 class="sc_courses_item_title"><a href="<?php echo esc_url(get_permalink()); ?>"><?php the_title(); ?></a></h4>
+			<h4 class="sc_courses_item_title">
+			<?php the_title(); ?>
+			<!--<a href="<?php //echo esc_url(get_permalink()); ?>"><?php //the_title(); ?></a>-->
+			</h4>
 			<div class="sc_courses_item_meta">
-				<i class="demo-icon icon-clock-empty"></i>
-				<span class="sc_courses_item_meta_item sc_courses_item_meta_date"><?php
+				<!--<i class="demo-icon icon-clock-empty"></i>-->
+				<!--<span class="sc_courses_item_meta_item sc_courses_item_meta_date">-->
+				<?php
+				/*
 					$dt = $meta['date'];
 					echo sprintf($dt < date('Y-m-d') ? esc_html__('Started on %s', 'translang') : '<span class="sc_courses_item_date">' . date(get_option('date_format'), strtotime($dt)) . '</span>');
+				*/
 				?></span>
 				<!-- <span class="sc_courses_item_meta_item sc_courses_item_meta_duration"><?php echo esc_html($meta['duration']); ?></span> -->
 				<?php if (($excerpt = get_the_excerpt()) != '') { ?>
