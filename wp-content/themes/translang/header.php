@@ -43,14 +43,14 @@
 				<?php if (translang_get_theme_option('body_style') != 'fullscreen') { ?>
 				<div class="content_wrap">
 				<?php } ?>
-
-					<?php
+<?php
 					// Widgets area above page content
-					translang_create_widgets_area('widgets_above_page');
+						//translang_create_widgets_area('widgets_above_page');
 					?>				
 
 					<div class="content">
 						<?php
 						// Widgets area inside page content
-						translang_create_widgets_area('widgets_above_content');
+						    //translang_create_widgets_area('widgets_above_content');
 						?>				
+					
