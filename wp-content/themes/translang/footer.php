@@ -42,6 +42,14 @@
 	<?php } ?>
 
 	<?php wp_footer(); ?>
-
+	<script>
+		var revolvingIcons = document.querySelectorAll("a.sc_services_item_image_icon, div.sc_services_item_subtitle a, a.sc_services_item_link");
+		for(let i=0; i<revolvingIcons.length; i++) {
+			revolvingIcons[i].addEventListener("click", (e) => {
+				e.preventDefault();
+				return false;
+			});
+		}
+	</script>
 </body>
 </html>
